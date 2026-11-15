@@ -86,5 +86,5 @@ Maintained by Abass Ajagbe.
 - GitHub: https://github.com/Abass69/labguard-scientific-security
 - LinkedIn: https://www.linkedin.com/in/abass-ajagbe-70a8801b8/
 
-Independent research-preparation prototype developed with AI assistance. The included results are benchmark results; real-world laboratory validation remains outstanding. See the technical report for methodology and limitations.
+Independent research-preparation prototype. The included results are benchmark results; real-world laboratory validation remains outstanding. See the technical report for methodology and limitations.
 
