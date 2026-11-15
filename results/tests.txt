@@ -1,0 +1,18 @@
+test_deterministic_and_disjoint (test_research.ResearchTests.test_deterministic_and_disjoint) ... ok
+test_feature_aggregation (test_research.ResearchTests.test_feature_aggregation) ... ok
+test_test_data_does_not_change_fit (test_research.ResearchTests.test_test_data_does_not_change_fit) ... ok
+test_edit_detection (test_security.SecurityTests.test_edit_detection) ... ok
+test_expired_and_revoked_sessions (test_security.SecurityTests.test_expired_and_revoked_sessions) ... ok
+test_fail_closed_when_audit_write_fails (test_security.SecurityTests.test_fail_closed_when_audit_write_fails) ... ok
+test_lockout (test_security.SecurityTests.test_lockout) ... ok
+test_no_secrets_in_audit (test_security.SecurityTests.test_no_secrets_in_audit) ... ok
+test_project_isolation_and_export_scope (test_security.SecurityTests.test_project_isolation_and_export_scope) ... ok
+test_role_action_matrix (test_security.SecurityTests.test_role_action_matrix) ... ok
+test_truncation_checkpoint (test_security.SecurityTests.test_truncation_checkpoint) ... ok
+test_unknown_and_injection_denied (test_security.SecurityTests.test_unknown_and_injection_denied) ... ok
+test_unknown_session_audited (test_security.SecurityTests.test_unknown_session_audited) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.168s
+
+OK

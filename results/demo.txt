@@ -1,0 +1,34 @@
+Allowed sample: S001
+Expected denial: read S002
+Expected denial: export S001
+Audit chain valid: True
+Illustrative offline scores: [
+  {
+    "actor": "local-operator",
+    "bucket": 1994165,
+    "requests": 1,
+    "denials": 0,
+    "failed_logins": 0,
+    "exports": 0,
+    "records": 0,
+    "off_hours": 0,
+    "score": 0.5149874105924584,
+    "threshold": 0.601353163131544,
+    "alert": false,
+    "rule_alert": false
+  },
+  {
+    "actor": "demo-tech",
+    "bucket": 1994165,
+    "requests": 6,
+    "denials": 2,
+    "failed_logins": 0,
+    "exports": 0,
+    "records": 2,
+    "off_hours": 0,
+    "score": 0.5565097282633839,
+    "threshold": 0.601353163131544,
+    "alert": false,
+    "rule_alert": false
+  }
+]

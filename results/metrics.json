@@ -1,0 +1,84 @@
+{
+  "seed": 42,
+  "events": 19336,
+  "windows": 720,
+  "features": [
+    "requests",
+    "denials",
+    "failed_logins",
+    "exports",
+    "records",
+    "off_hours"
+  ],
+  "split_counts": {
+    "train": 360,
+    "calibration": 120,
+    "test": 240
+  },
+  "test_anomalies": 47,
+  "threshold": 0.601353163131544,
+  "isolation_forest": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7659574468085106,
+    "f1": 0.7128712871287128,
+    "false_positive_rate": 0.09326424870466321,
+    "tn": 175,
+    "fp": 18,
+    "fn": 11,
+    "tp": 36,
+    "average_precision": 0.697924824586732,
+    "roc_auc": 0.8475912247822732
+  },
+  "rules": {
+    "precision": 0.6031746031746031,
+    "recall": 0.8085106382978723,
+    "f1": 0.6909090909090909,
+    "false_positive_rate": 0.12953367875647667,
+    "tn": 168,
+    "fp": 25,
+    "fn": 9,
+    "tp": 38
+  },
+  "by_scenario": {
+    "bulk_export": {
+      "windows": 11,
+      "iforest_alert_rate": 0.8181818181818182,
+      "rules_alert_rate": 1.0
+    },
+    "legitimate_batch": {
+      "windows": 29,
+      "iforest_alert_rate": 0.5862068965517241,
+      "rules_alert_rate": 0.8620689655172413
+    },
+    "login_burst": {
+      "windows": 15,
+      "iforest_alert_rate": 1.0,
+      "rules_alert_rate": 1.0
+    },
+    "normal": {
+      "windows": 164,
+      "iforest_alert_rate": 0.006097560975609756,
+      "rules_alert_rate": 0.0
+    },
+    "quiet_misuse": {
+      "windows": 9,
+      "iforest_alert_rate": 0.0,
+      "rules_alert_rate": 0.0
+    },
+    "scope_probe": {
+      "windows": 12,
+      "iforest_alert_rate": 1.0,
+      "rules_alert_rate": 1.0
+    }
+  },
+  "raw_sha256": "bf2fcfcc4c8f34f3333fd05d88d41ba0ce4bfbc15c2952e7ebd10552085972bc",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "iforest_f1_bootstrap_95_percentile": [
+    0.6024096385542169,
+    0.7983898305084746
+  ]
+}

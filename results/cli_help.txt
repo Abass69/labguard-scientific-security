@@ -1,0 +1,11 @@
+usage: __main__.py [-h] [--directory DIRECTORY]
+                   {init,provision,act,verify,score} ...
+
+Local-only LabGuard sandbox
+
+positional arguments:
+  {init,provision,act,verify,score}
+
+options:
+  -h, --help            show this help message and exit
+  --directory DIRECTORY
